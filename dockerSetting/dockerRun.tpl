@@ -1,1 +1,1 @@
-template dockerRun.tpl
+template dockerRun.tpl => <% @serverName %> --
