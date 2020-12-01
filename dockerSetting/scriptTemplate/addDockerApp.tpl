@@ -1,8 +1,8 @@
+echo "-- Add docker app ... <%=@serverName %> --"
+
 cd <%=@dockerSettingPath %>
 
 docker build -f <%=@dockerFile %> -t <%=@siteImage %> .
-
-echo "Start docker app ... <%=@serverName %>"
 
 docker container stop <%=@siteContainer %>
 
