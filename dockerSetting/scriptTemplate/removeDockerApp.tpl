@@ -1,5 +1,3 @@
-cd <%=@dockerPath %>
-
 echo "Remove docker app ... <%=@serverName %>"
 
 docker container stop <%=@siteContainer %>
