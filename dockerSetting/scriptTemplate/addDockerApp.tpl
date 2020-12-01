@@ -1,4 +1,4 @@
-echo "-- Add docker app ... <%=@serverName %> --"
+# -- Add docker app ... <%=@serverName %> --
 
 cd <%=@dockerSettingPath %>
 
