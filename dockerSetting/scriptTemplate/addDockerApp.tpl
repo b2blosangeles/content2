@@ -1,4 +1,4 @@
-cd <%=@dockerCodePath %>
+cd <%=@dockerSettingPath %>
 
 docker build -f <%=@dockerFile %> -t <%=@siteImage %> .
 
